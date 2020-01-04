@@ -30,7 +30,7 @@ cp "/tmp/node_exporter/node_exporter-$version.linux-$arch/node_exporter" "$insta
 
 chown root:root "$install_dir/node_exporter"
 
-cp $download_dir/node_exporter.service > /etc/systemd/system/node_exporter.service
+cp $download_dir/node_exporter.service /etc/systemd/system/node_exporter.service
 
 
 systemctl enable node_exporter.service
