@@ -1,5 +1,5 @@
 # Prometheus Node Exporter Installation Script
-Prometheus installation script for node_exporter (https://github.com/prometheus/node_exporter) 
+Installation script for Prometheus node_exporter (https://github.com/prometheus/node_exporter) 
 
 How to use it:
 ```
