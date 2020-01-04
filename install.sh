@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -x
+## uncomment for debugging
+#set -x
 
 ## simple check for root permissions
 if [ "$EUID" -ne 0 ]
